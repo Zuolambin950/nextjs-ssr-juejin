@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 网页标题 -->
+    <title>博客文章详情页 -如何突破技术瓶颈</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <style>
+    	/* 博客文章信息为灰色 */
+        .post-info {
+            color: gray;
+        }
+        .post-info span {
+            margin-right: 15px;  /* 博客文章信息间隔15px */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 文章标题 -->
+        <h1 class="post-title">如何突破技术瓶颈</h1>
+        <p class="post-info">
+            <!-- 文章发布时间 -->
+            <span>发布于 2023/2/16 17:22</span>
+            <!-- 文章作者 -->
+            <span>作者：zuolinbin<a href="#">zuolinbin</a></span>
+            <!-- 文章流量信息 -->
+            <span class="glyphicon glyphicon-eye-open">浏览量：132</span>
+            <span class="glyphicon glyphicon-heart">点赞：1条</span>
+            <span class="glyphicon glyphicon-comment">评论：3条</span>
+        </p>
+        <!-- 文章标签 -->
+        <p class="post-tag">
+            <span class="label label-danger">前端</span>
+            <span class="label label-warning">HTML</span>
+            <span class="label label-info">如何突破技术瓶颈</span>
+        </p>
+        <hr>
+        <div class="row">
+            <div class="col-md-8">
+                <!-- 文章内容 -->
+                <div class="content">
+                    <p>hello，大家好，我是左林斌，......</p> 
+                    <p>安装命令：</p>
+                    ......
+                    <!-- 这里省略无价值内容 -->
+                </div>
+                <hr>
+                <ul class="list-group" style="width: 750px;">
+                    <li class="list-group-item">
+                        <h5>User 1：写得不错！</h5>
+                    </li>
+                    <li class="list-group-item">
+                        <h5>User 2：感谢博主！</h5>
+                    </li>
+                    <li class="list-group-item">
+                        <h5>User 3：希望能看到更多像这样的优质文章！</h5>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4><b>相关文章</b></h4>
+                <ul class="list-group">
+                    <!-- 最新文章列表 -->
+                    <li class="list-group-item">
+                        <a href="#">深飘4年小前端的困境与挣扎</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">前端如何突破技术与业务的瓶颈</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">前端计算机基础大补丸在此！来一颗吧！</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">想写好前端运用好这些工具</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#">前端开发小技巧</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
